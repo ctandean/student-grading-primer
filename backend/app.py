@@ -30,7 +30,6 @@ def create_student():
     param mark: The mark the student received (from request body)
     return: The created student if successful
     """
-
     student_data = request.json
  
     if not student_data:
